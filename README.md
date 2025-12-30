@@ -72,3 +72,12 @@ npm install
 npm start
 
 
+##  Test Credentials
+
+You can register a new account or use:
+
+- Email: test@example.com  
+- Password: 123456
+
+
+
