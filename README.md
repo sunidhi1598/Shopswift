@@ -11,7 +11,7 @@ It supports user authentication, cart management, and secure payment integration
   https://shopswiftmernn.netlify.app
 
 - **Backend API (Render):**  
-  https://shopswift1.onrender.com/api
+  https://shopswift1.onrender.com
 
 ---
 
@@ -70,4 +70,5 @@ npm run dev
 cd frontend
 npm install
 npm start
+
 
