@@ -5,6 +5,16 @@ It supports user authentication, cart management, and secure payment integration
 
 ---
 
+##  Live Demo
+
+- **Frontend (Netlify):**  
+  https://shopswiftmernn.netlify.app
+
+- **Backend API (Render):**  
+  https://shopswift1.onrender.com/api
+
+---
+
 ##  Features
 
 - User Registration & Login (JWT Authentication)
@@ -20,27 +30,27 @@ It supports user authentication, cart management, and secure payment integration
 
 ##  Tech Stack
 
-**Frontend**
+### Frontend
 - React
 - React Router
 - Context API
 - Axios
 
-**Backend**
+### Backend
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
 - JWT Authentication
 
-**Payment**
+### Payment
 - Razorpay (Test Mode)
 
 ---
 
 ##  Environment Variables
 
-Create a `.env` file in the backend folder:
+Create a `.env` file inside the **backend** folder.
 
 ```env
 MONGO_URI=your_mongodb_uri
@@ -48,7 +58,6 @@ JWT_SECRET=your_jwt_secret
 RAZORPAY_KEY_ID=your_razorpay_key
 RAZORPAY_KEY_SECRET=your_razorpay_secret
 PORT=5000
-
 
 ## Setup Instructions
 
@@ -60,4 +69,5 @@ npm run dev
 # Frontend
 cd frontend
 npm install
+
 npm start
